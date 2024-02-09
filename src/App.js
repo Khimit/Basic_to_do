@@ -5,7 +5,7 @@ import SearchBox from "./components/SearchBox";
 import { useSelector } from "react-redux";
 
 function App() {
-  // to do app
+  
   const tasks = useSelector((state) => state.task.value);
 
   return (
